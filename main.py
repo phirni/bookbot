@@ -16,7 +16,7 @@ def main():
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
 
-    book_path = sys.argv[1]   # ✅ define FIRST
+    book_path = sys.argv[1]  
 
     print("============ BOOKBOT ============")
     print(f"Analyzing book found at {book_path}...")
